@@ -1,0 +1,9 @@
+shiny gold bags contain 3 wavy gold bags.
+wavy gold bags contain 2 pale tomato bags, 5 posh tomato bags.
+pale tomato bags contain 3 dull magenta bags, 5 dim turquoise bags.
+posh tomato bags contain no bags.
+dull magenta bags contain no bags.
+dim turquoise bags contain 4 dull magenta bags.
+
+
+
