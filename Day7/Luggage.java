@@ -88,7 +88,6 @@ public class Luggage {
 		myQueue.add("shinygold");
 		while (!myQueue.isEmpty()) {
 			String idToMatch = myQueue.poll();
-			//System.out.println(idToMatch);
 			for (String id : map.keySet()) {
 				for (Bag currBag : map.get(id)) {
 					if (currBag.name.equals(idToMatch)) {
@@ -99,7 +98,7 @@ public class Luggage {
 			}
 		}
 		System.out.println("total unique that contain gold = " + visited.size());
-		System.out.println("sum = " + sum(map.get("shinygold")));
+		System.out.println("sum inside shiny bag = " + sum(map.get("shinygold")));
 	}
 
 
@@ -114,9 +113,7 @@ public class Luggage {
 			sum += interim;
 		}
 		for (int i = 0; i < bagList.size(); i++) {
-			System.out.println(bagList.get(i).name);
 		}
-		System.out.println(sum);
 		return sum;
 	}
 }
